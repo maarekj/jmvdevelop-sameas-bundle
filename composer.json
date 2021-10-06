@@ -1,0 +1,30 @@
+{
+  "name": "jmvdevelop/sameas-bundle",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Joseph Maarek",
+      "email": "josephmaarek@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/validator": "^5.3",
+    "symfony/config": "^5.3",
+    "symfony/dependency-injection": "^5.3",
+    "symfony/http-kernel": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "JmvDevelop\\SameAsBundle\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JmvDevelop\\SameAsBundle\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "vimeo/psalm": "^4.10",
+    "phpunit/phpunit": "^9.5"
+  }
+}
