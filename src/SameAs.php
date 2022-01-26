@@ -28,7 +28,6 @@ final class SameAs extends Constraint
      */
     public function __construct(string $class, ?array $options = null, ?string $property = null, ?array $targetGroups = null, ?array $groups = null, ?array $payload = null)
     {
-        $this->groups = [];
         parent::__construct($options ?? [], $groups, $payload);
 
         $this->class = $class;

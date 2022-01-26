@@ -2,3 +2,4 @@ vendor/
 .phpunit.cache/
 .php-cs-fixer.cache
 bin/.php-cs-fixer
+/.idea/symfony2.xml
